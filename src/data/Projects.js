@@ -1,3 +1,4 @@
+const projectsData =
 [
     {
       "title": "Model-View-Controller (MVC): Tech-Blog",
@@ -13,4 +14,6 @@
 
     }
   ]
+
+  export default projectsData;
   
