@@ -1,14 +1,5 @@
-import axios from 'axios';
-
-const getUsers = () => {
-  return axios.get('https://jsonplaceholder.typicode.com/users/');
-};
-
-const getSingleUser = (paramId) => {
-  return axios.get(`https://jsonplaceholder.typicode.com/users/${paramId}`);
-};
-
-export default {
-  getUsers,
-  getSingleUser,
-};
+export function validateEmail(email) {
+  // Regular expression for email validation
+  var re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return re.test(email);
+}

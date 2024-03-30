@@ -7,10 +7,12 @@ import './index.css';
 
 // Bringing in the pages the router will use to conditionally show the appropriate views
 import App from './App';
-import ErrorPage from './pages/ErrorPage';
-import HomePage from './pages/HomePage';
-import ProfilePage from './pages/ProfilePage';
-import AboutPage from './pages/AboutPage';
+import ErrorPage from './pages/error';
+import HomePage from './pages/home';
+import AboutPage from './pages/about';
+import PortfolioPage from './pages/portfolio';
+import ResumePage from './pages/resume';
+import ContactPage from './pages/contact';
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
@@ -24,8 +26,16 @@ const router = createBrowserRouter([
         element: <HomePage />,
       },
       {
-        path: 'profile/:id',
-        element: <ProfilePage />,
+        path: 'portfolio',
+        element: <PortfolioPage />,
+      },
+      {
+        path: 'resume',
+        element: <ResumePage />,
+      },
+      {
+        path: 'contact',
+        element: <ContactPage />,
       },
       {
         path: 'about',
