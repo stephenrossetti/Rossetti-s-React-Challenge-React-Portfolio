@@ -5,7 +5,7 @@ import { MdFoundation } from "react-icons/md";
 import { GrTechnology } from "react-icons/gr";
 import { GrDocumentPerformance } from "react-icons/gr";
 
-export default function Resume() {
+export default function ResumePage() {
     return (
         <div>
             <section id="welcome-section" className="download-intro">
