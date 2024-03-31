@@ -10,7 +10,6 @@ export default function Footer() {
   return (
     <footer>
       <h2>Made by Stephen Rossetti</h2>
-      <p>
         <ul>
           <a href="https://github.com/stephenrossetti">
             <li className="logo">
@@ -28,7 +27,6 @@ export default function Footer() {
             </li>
           </a>
         </ul>
-      </p>
     </footer>
   );
 }

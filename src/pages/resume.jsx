@@ -1,8 +1,8 @@
 import React from "react";
 import resume from "../assets/images/Stephen.Rossetti.Resume.2024.pdf";
 import { BsCloudDownload } from "react-icons/bs";
-import { MdFoundation } from "react-icons/md";
-import { GrTechnology } from "react-icons/gr";
+import { FaComputer } from "react-icons/fa6";
+import { FaRegFileCode } from "react-icons/fa";
 import { GrDocumentPerformance } from "react-icons/gr";
 
 export default function ResumePage() {
@@ -31,7 +31,7 @@ export default function ResumePage() {
                     <p className="column-text">
                         <ul>
                             <li className="logo">
-                                <MdFoundation />
+                                <FaComputer />
                             </li>
                             <li>HTML</li>
                             <li>CSS</li>
@@ -47,13 +47,13 @@ export default function ResumePage() {
                     <p className="column-text">
                         <ul>
                             <li className="logo">
-                                <GrTechnology />
+                                <FaRegFileCode />
                             </li>
                             <li>Node.Js</li>
-                            <li>Jest</li>
                             <li>Express.js</li>
                             <li>MySQL</li>
                             <li>Sequelize</li>
+                            <li>Object-Oriented Programming (OOP)</li>
                             <li>Object-Relational Mapping(ORM)</li>
                             <li>Model-View-Controller (MVC)</li>
                         </ul>
@@ -66,7 +66,6 @@ export default function ResumePage() {
                             <li className="logo">
                                 <GrDocumentPerformance />
                             </li>
-                            <li>MySQL</li>
                             <li>NoSQL</li>
                             <li>Progressive Web Applications (PWA)</li>
                             <li>MongoDB</li>
