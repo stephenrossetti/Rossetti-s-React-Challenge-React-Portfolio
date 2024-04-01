@@ -500,14 +500,11 @@ label {
 
   .contact-info {
     text-align: center;
-
   }
 
   .contact-info li {
     font-size: 25px;
     justify-content: space-between;
-
-
   }
 
   #contact-list {
@@ -522,3 +519,4 @@ label {
   .contact-info>* {
     flex: 0 100%;
   }
+}
