@@ -412,7 +412,6 @@ label {
     padding-bottom: 0;
     justify-content: center;
     position: relative;
-
   }
 
   header nav ul {
@@ -421,7 +420,7 @@ label {
     justify-content: center;
   }
 
-  header nav ul li a {
+  header nav ul a {
     font-size: 20px;
   }
 
@@ -449,10 +448,6 @@ label {
 }
 
 @media screen and (max-width: 768px) {
-  /* section {
-    padding: 30px 15px;
-  } */
-
   .project h3 {
     flex: 1 100%;
     text-align: center;
@@ -489,8 +484,6 @@ label {
 }
 
 @media screen and (max-width: 575px) {
-
-
   .section-title {
     width: 95%;
   }
@@ -524,12 +517,8 @@ label {
     flex-wrap: wrap;
     margin-bottom: 25px;
     margin-right: 120px;
-
   }
 
   .contact-info>* {
     flex: 0 100%;
   }
-
-
-}
