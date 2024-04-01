@@ -8,9 +8,9 @@ import { GrDocumentPerformance } from "react-icons/gr";
 export default function ResumePage() {
     return (
         <div>
-            <section id="welcome-section" className="download-intro">
+            <section id="resume-section" className="download-intro">
                 <div className="flex-row">
-                    <h2 className="section-title primary-border">My Resume</h2>
+                    <h2 className="section-title">My Resume</h2>
                 </div>
                 <div className="flex-row">
                     <div className="download-info">
@@ -19,7 +19,7 @@ export default function ResumePage() {
                                 <BsCloudDownload />
                             </a>
                             <p>
-                                Below is a list of additional coding skills not noted on my resume!
+                                Please see a list of additional coding skills below!
                             </p>
                         </div>
                     </div>
@@ -28,9 +28,9 @@ export default function ResumePage() {
             <section id="home-page-body" className="resume-body">
                 <div className="article column1">
                     <p className="column-title">Font-End Technology</p>
-                    <p className="column-text">
+                    <div className="column-text">
                         <ul>
-                            <li className="logo">
+                            <li className="logos">
                                 <FaComputer />
                             </li>
                             <li>HTML</li>
@@ -40,13 +40,13 @@ export default function ResumePage() {
                             <li>Bootstrap</li>
                             <li>GIT</li>
                         </ul>
-                    </p>
+                    </div>
                 </div>
                 <div className="article column2">
                     <p className="column-title">Back-End Technology</p>
-                    <p className="column-text">
+                    <div className="column-text">
                         <ul>
-                            <li className="logo">
+                            <li className="logos">
                                 <FaRegFileCode />
                             </li>
                             <li>Node.Js</li>
@@ -57,13 +57,13 @@ export default function ResumePage() {
                             <li>Object-Relational Mapping(ORM)</li>
                             <li>Model-View-Controller (MVC)</li>
                         </ul>
-                    </p>
+                    </div>
                 </div>
                 <div className="article column3">
                     <p className="column-title">Performance Technology</p>
-                    <p className="column-text">
+                    <div className="column-text">
                         <ul>
-                            <li className="logo">
+                            <li className="logos">
                                 <GrDocumentPerformance />
                             </li>
                             <li>NoSQL</li>
@@ -75,7 +75,7 @@ export default function ResumePage() {
                             <li>MERN</li>
                             <li>State</li>
                         </ul>
-                    </p>
+                    </div>
                 </div>
             </section>
         </div>

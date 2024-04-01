@@ -2,34 +2,21 @@
 
 import React from "react";
 import profileImg from "../assets/images/profileImg.jpg";
+import backgroundImg from "../assets/images/mountains.jpg";
 
 // This is a static page mocking an "About Us" section
 export default function HomePage() {
   return (
-    <section id="about-me" className="my-5 intro">
+    <section className="my-5 intro" style={{ backgroundImage: `url(${backgroundImg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
       <div className="flex-row">
-        <h1 id="about" className="section-title primary-border">
-          About Me
+        <h1 className="section-title">
+          Welcome!
         </h1>
       </div>
       <div className="flex-row">
-      <div className="intro-info">
           <div className="intro-img">
-            <img src={profileImg} style={{ width: "100%" }} alt="profile" />
+            <img src={profileImg} alt="profile" />
           </div>
-          <p>
-            HOME
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-            tenetur maiores, dolor iusto dolorum ullam, natus deleniti blanditiis
-            impedit suscipit sed magnam alias in, repellat expedita hic explicabo
-            architecto soluta. About us Lorem ipsum, dolor sit amet consectetur
-            adipisicing elit. Velit voluptate exercitationem quaerat pariatur
-            mollitia, excepturi, voluptatem eveniet a dolor nobis ex veniam totam
-            nostrum temporibus ad omnis nam rerum eligendi.
-          </p>
-        </div>
       </div>
     </section>
   );
