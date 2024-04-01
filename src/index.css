@@ -315,13 +315,8 @@ label {
   color: var(--darkgray);
 }
 
-/*Start Jobs section*/
-
-.jobs {
-  background: #0E5259;
-}
-
-.job {
+/* PORTFOLIO */
+.project {
   margin: 50px auto;
   padding-bottom: 50px;
   width: 80%;
@@ -329,48 +324,32 @@ label {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #D5F2EA;
+  border-bottom: 1px solid var(--maroon);
 }
 
-
-.job:nth-child(even) {
-  border-bottom: 1px solid #D5F2EA;
-}
-
-.job:last-child {
+.project:last-child {
   border-bottom: none;
 }
 
-.job-text h4 {
-  font-size: 26px;
+.project-text h4 {
+  font-size: 32px;
   line-height: 1.5;
-  color: #75BFB2;
+  color: var(--maroon);
 }
 
-
-.job-info {
-  flex: 2 70%;
+.project-info {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
 }
 
-.job-img {
-  flex: 1 12%;
-  margin-right: 250px;
+.project-img {
+  flex: 1 15%;
+  margin-right: 100px;
   opacity: 0.5;
-  filter: alpha(opacity=40);
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  transition: all 1s ease;
-
-
-
 }
 
-.job-img img {
+.project-img img {
   max-width: 200%;
   max-height: 100%;
   -webkit-transition: all 1s ease;
@@ -380,31 +359,35 @@ label {
   transition: all 1s ease;
 }
 
-.job-img:hover {
+.project-img:hover {
   opacity: 1.0;
-  /*    transition: .5s ease;*/
   filter: alpha(opacity=100);
   transform: scale(1.01);
 }
 
-.job-img img:hover {
-  /*    transition: .5s ease-in-out;*/
-  border: 5px solid #ACF2E5;
+.project-img img:hover {
+  border: 5px solid var(--maroon);
   transform: scale(1.1);
 }
 
-.job-img img:hover::after {
+.project-img img:hover::after {
   transition: .5s ease;
 
 }
 
-.job-text {
+.project-text {
   flex: 12;
 }
 
-.job-text p {
-  color: #D5F2EA;
+.project-text p {
+  color: var(--darkgray);
   font-size: 18px;
+}
+
+.project-text a {
+  color: var(--litemaroon);
+  font-size: 18px;
+  font-style: italic;
 }
 
 /* TITLES */
@@ -467,18 +450,18 @@ label {
     padding: 30px 15px;
   } */
 
-  .job h3 {
+  .project h3 {
     flex: 1 100%;
     text-align: center;
   }
 
-  .job-info {
+  .project-info {
     flex: 2 100%;
     text-align: center;
     justify-content: center;
   }
 
-  .job-img,
+  .project-img,
   .intro-img {
     flex: 0 32%;
     margin-right: 0;
@@ -486,11 +469,11 @@ label {
     margin-bottom: 15px;
   }
 
-  .job-img {
+  .project-img {
     margin-right: 100px;
   }
 
-  .job-text {
+  .project-text {
     flex: 100%;
   }
 
@@ -515,7 +498,7 @@ label {
     padding: 30px 15px;
   }
 
-  .job-img {
+  .project-img {
     margin-right: 100px;
   }
 
