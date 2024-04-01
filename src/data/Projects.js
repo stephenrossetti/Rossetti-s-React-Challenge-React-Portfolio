@@ -8,7 +8,7 @@ const projectsData =
       "content": "CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers posts as well.",
       "gitHubUrl": "https://github.com/stephenrossetti/Rossetti-s-Model-View-Controller-MVC-Tech-Blog",
       "liveUrl": "https://rossetti-mvc-tech-blog-5f23ac01a35f.herokuapp.com/",
-      "image": "../src/assets/images/p1TechBlog.jpg"
+      "image": "./src/assets/images/p1TechBlog.jpg"
     },
     {
       "id": 2,
@@ -16,7 +16,7 @@ const projectsData =
       "content": "A text editor that runs in the browser and is a single-page application that meets the PWA criteria.",
       "gitHubUrl": "https://github.com/stephenrossetti/Rossetti-s-Progressive-Web-Applications-PWA-Challenge-Text-Editor",
       "liveUrl": "https://rossettis-progressive-web-applications.onrender.com/",
-      "image": "../src/assets/images/p2PWA.jpg "
+      "image": "../src/assets/images/p2PWA.jpg"
     },
     {
       "id": 3,

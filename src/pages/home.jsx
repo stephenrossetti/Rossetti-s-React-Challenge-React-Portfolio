@@ -1,5 +1,4 @@
 // Home page of website. Just includes a background image and welcome //
-
 import React from "react";
 import backgroundImg from "../assets/images/mountains.jpg";
 
