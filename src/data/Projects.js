@@ -16,7 +16,7 @@ const projectsData =
       "content": "A text editor that runs in the browser and is a single-page application that meets the PWA criteria.",
       "gitHubUrl": "https://github.com/stephenrossetti/Rossetti-s-Progressive-Web-Applications-PWA-Challenge-Text-Editor",
       "liveUrl": "https://rossettis-progressive-web-applications.onrender.com/",
-      "image": "../src/assets/images/p2PWA.jpg"
+      "image": "./assets/images/projects/p2PWA.jpg"
     },
     {
       "id": 3,
@@ -24,7 +24,7 @@ const projectsData =
       "content": "A command-line application to manage a company's employee database and act as a content management system (CMS).",
       "gitHubUrl": "https://github.com/stephenrossetti/SQL-Challenge-Employee-Tracker",
       "liveUrl": "https://drive.google.com/file/d/1UKzp6wDt7Con_gm9E5rFRI5ihtZNHamA/view",
-      "image": "../src/assets/images/p3EmployeeTracker.jpg "
+      "image": "./assets/images/projects/p3EmployeeTracker.jpg "
     },
     {
       "id": 4,
@@ -32,7 +32,7 @@ const projectsData =
       "content": "A application via Express.js (backend) that can be used to write, save and delete notes.",
       "gitHubUrl": "https://github.com/stephenrossetti/Express.Js-Note-Tracker",
       "liveUrl": "https://express-js-note-tracker-bfbfe455c9cc.herokuapp.com/",
-      "image": "../src/assets/images/p4NoteTracker.jpg "
+      "image": "./assets/images/projects/p4NoteTracker.jpg "
     },
     {
       "id": 5,
@@ -40,7 +40,7 @@ const projectsData =
       "content": "A 5-day weather dashboard that accesses a third-party's API (OpenWeatherMap) and retrieves data from their application.",
       "gitHubUrl": "https://github.com/stephenrossetti/Module-6-Challenge",
       "liveUrl": "https://stephenrossetti.github.io/Module-6-Challenge/",
-      "image": "../src/assets/images/p5WeatherApp.jpg"
+      "image": "./assets/images/projects/p5WeatherApp.jpg"
     },
     {
       "id": 6,
@@ -48,7 +48,7 @@ const projectsData =
       "content": "A website where dog owners can search common human foods they want to feed their dogs and obtain nutritional information on those foods.",
       "gitHubUrl": "https://github.com/stephenrossetti/Project-1",
       "liveUrl": "https://stephenrossetti.github.io/Project-1/",
-      "image": "../src/assets/images/p6PetTreatInformer.jpg"
+      "image": "./assets/images/projects/p6PetTreatInformer.jpg"
     },
     {
       "id": 7,
@@ -56,7 +56,7 @@ const projectsData =
       "content": "A web-application that will allows users to create and save new events at convention and when logged in they can view all events that have been created.",
       "gitHubUrl": "https://github.com/kathylopez97/Convention-Planner",
       "liveUrl": "https://convention-planner-f58cd02bb10c.herokuapp.com/",
-      "image": "../src/assets/images/p7ConventionPlanner.jpg"
+      "image": "./assets/images/projects/p7ConventionPlanner.jpg"
     }
   ]
 

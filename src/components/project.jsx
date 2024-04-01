@@ -8,7 +8,6 @@ export default function Project({ project }) {
       <div className="project-info">
         <div className="project-img">
           {/* target on blank to open in new tab and rel for security performance */}
-          <h1>{project.image}</h1>
           <a href={project.gitHubUrl} target="_blank" rel="noopener noreferrer">
             <img
               src={project.image}
