@@ -227,6 +227,7 @@ footer h2 {
   justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 1%;
+  padding-bottom: 15%;
 }
 
 .contact-address {
