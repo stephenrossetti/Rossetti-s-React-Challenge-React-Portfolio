@@ -13,11 +13,6 @@ export default function HomePage() {
           Welcome!
         </h1>
       </div>
-      <div className="flex-row">
-          <div className="intro-img">
-            <img src={profileImg} alt="profile" />
-          </div>
-      </div>
     </section>
   );
 }

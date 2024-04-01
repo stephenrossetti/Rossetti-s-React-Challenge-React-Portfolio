@@ -1,4 +1,5 @@
 import React from "react";
+import profileImg from "../assets/images/profileImg.jpg";
 
 // This is a static page mocking an "About Us" section
 export default function AboutPage() {
@@ -10,6 +11,9 @@ export default function AboutPage() {
         </h1>
       </div>
       <div className="flex-row">
+      <div className="intro-img">
+            <img src={profileImg} alt="profile" />
+          </div>
         <div className="intro-info">
           <p style={{ fontWeight: 'bold' }}>
             Professional

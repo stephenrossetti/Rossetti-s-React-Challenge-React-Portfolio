@@ -3,14 +3,15 @@ import { validateEmail } from '../utils/helpers';
 
 export default function Form() {
   const [email, setEmail] = useState('');
-  const [userName, setUserName] = useState('');
+  const [name, setName] = useState('');
   const [message, setMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
+  const [errorMessageField, setErrorMessageField] = useState('');
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     if (name === 'email') setEmail(value);
-    else if (name === 'userName') setUserName(value);
+    else if (name === 'name') setName(value);
     else if (name === 'message') setMessage(value);
   };
 
@@ -18,21 +19,35 @@ export default function Form() {
     e.preventDefault();
     setErrorMessage('');
 
-    if (!validateEmail(email) || !userName) {
+    if (!validateEmail(email) || !name) {
       setErrorMessage('Email or username is invalid');
       return;
     }
 
     // Simulate form submission by logging the inputs
     console.log(`Submitted Form:
-      Name: ${userName}
+      Name: ${name}
       Email: ${email}
       Message: ${message}
     `);
 
-    setUserName('');
+    setName('');
     setEmail('');
     setMessage('');
+  };
+
+  const handleInputBlur = (e) => {
+    const { name, value } = e.target;
+
+    // Check if the field is empty and show error message
+    if (!value) {
+      setErrorMessage(`Your ${name} is required`);
+      setErrorMessageField(name);
+    } else {
+      // Clear error message if field is not empty
+      setErrorMessage('');
+      setErrorMessageField('');
+    }
   };
 
   return (
@@ -42,7 +57,7 @@ export default function Form() {
       </div>
       <div className="contact-info">
         <div className="contact-address">
-        <h3>Hello {userName ? userName : '(Friend)'}</h3>
+          <h3>Hello {name ? name : '(Friend)'}</h3>
           <p>Are you looking to connect?</p>
           <address>
             Minneapolis, MN <br />
@@ -59,22 +74,26 @@ export default function Form() {
           <form className="form" onSubmit={handleFormSubmit}>
             <label htmlFor="contact-name">Your Name</label>
             <input
-              value={userName}
-              name="userName"
+              value={name}
+              name="name"
               onChange={handleInputChange}
+              onBlur={handleInputBlur}
               type="text"
               id="contact-name"
               placeholder="Your Name"
             />
+            {errorMessage && errorMessageField === "name" && <p className="error-message" style={{ color: "red", fontStyle: "italic", fontSize: "14px" }}>{errorMessage}</p>}
             <label htmlFor="contact-email">Your Email</label>
             <input
               value={email}
               name="email"
               onChange={handleInputChange}
+              onBlur={handleInputBlur}
               type="email"
               id="contact-email"
               placeholder="Your Email"
             />
+             {errorMessage && errorMessageField === "email" && <p className="error-message" style={{ color: "red", fontStyle: "italic", fontSize: "14px" }}>{errorMessage}</p>}
             <label htmlFor="contact-message">Message</label>
             <textarea
               value={message}
@@ -86,7 +105,6 @@ export default function Form() {
             <button type="submit">Submit</button>
           </form>
         </div>
-        {errorMessage && <div><p className="error-text">{errorMessage}</p></div>}
       </div>
     </section>
   );

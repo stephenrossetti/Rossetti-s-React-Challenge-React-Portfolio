@@ -48,6 +48,12 @@ header nav {
 }
 
 header nav ul a:hover {
+  background: var(--darkgray);
+  color: var(--white);
+  border-radius: 15px;
+}
+
+.nav-link.active {
   background: var(--litemaroon);
   color: var(--white);
   border-radius: 15px;
@@ -62,6 +68,7 @@ footer {
   height: 100px;
   bottom: 0;
   display: flex;
+  position: fixed;
   justify-content: center;
   align-items: center;
 }
@@ -91,7 +98,7 @@ footer h2 {
 .my-5 {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
-  height: 700px;
+  height: 735px;
 }
 
 .intro-img {
@@ -109,9 +116,7 @@ footer h2 {
   border-radius: 10px;
   border-width: 5px;
   border-style: solid;
-  border-image: 
-  linear-gradient(to right, var(--maroon), var(--litemaroon));
-  border-image-slice: 1;
+  border-color: var(--maroon);
 }
 
 /* ABOUT ME */
@@ -125,10 +130,10 @@ footer h2 {
 }
 
 .intro-info {
-  flex: 2 70%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  padding-bottom: 10%;
 }
 
 /* RESUME */
@@ -314,9 +319,7 @@ label {
 
 .jobs {
   background: #0E5259;
-
 }
-
 
 .job {
   margin: 50px auto;
@@ -404,17 +407,8 @@ label {
   font-size: 18px;
 }
 
-/*End Jobs section*/
-
-
-
-
-
-
-
-
-
 /* TITLES */
+
 .section-title {
   font-size: 48px;
   color: var(--maroon);
@@ -424,10 +418,6 @@ label {
   margin: 20px auto 35px auto;
   width: 50%;
 }
-
-
-
-
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 
