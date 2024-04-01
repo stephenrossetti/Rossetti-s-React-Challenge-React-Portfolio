@@ -1,5 +1,6 @@
 // Import React as well as icons that can be clicked to link to my websites //
 import React from "react";
+// Obtained from React icons website //
 import { VscGithubAlt } from "react-icons/vsc";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { FaInstagram } from "react-icons/fa";

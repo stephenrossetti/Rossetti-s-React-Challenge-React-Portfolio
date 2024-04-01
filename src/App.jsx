@@ -1,4 +1,5 @@
-// Bringing in the required import from 'react-router-dom'
+// Bringing in the required import from 'react-router-dom' //
+// Outlet acts as a conditional input depending on URL //
 import { Outlet } from 'react-router-dom';
 import Header from './components/header';
 import Footer from './components/footer';

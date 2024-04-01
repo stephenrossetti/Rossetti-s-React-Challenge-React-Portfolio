@@ -1,5 +1,7 @@
+// Add JSON data here to easily update and add rather than going through HTML //
+
 const projectsData =
-[
+  [
     {
       "id": 1,
       "title": "Model-View-Controller (MVC): Tech-Blog",
@@ -58,5 +60,5 @@ const projectsData =
     }
   ]
 
-  export default projectsData;
-  
+export default projectsData;
+

@@ -1,3 +1,5 @@
+// Create a navbar function that will map through each link (or react webpage) similar to a for each function //
+
 export default function Nav({ links }) {
   return (
     <nav className="navbar navbar-expand-lg bg-secondary">

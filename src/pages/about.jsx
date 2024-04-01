@@ -1,7 +1,8 @@
+// Import React and the about page image //
 import React from "react";
 import profileImg from "../assets/images/profileImg.jpg";
 
-// This is a static page mocking an "About Us" section
+// This is a static page mocking an "About Us" section //
 export default function AboutPage() {
   return (
     <section id="about-me" className="my-5 intro">
@@ -11,9 +12,9 @@ export default function AboutPage() {
         </h1>
       </div>
       <div className="flex-row">
-      <div className="intro-img">
-            <img src={profileImg} alt="profile" />
-          </div>
+        <div className="intro-img">
+          <img src={profileImg} alt="profile" />
+        </div>
         <div className="intro-info">
           <p style={{ fontWeight: 'bold' }}>
             Professional
@@ -24,7 +25,7 @@ export default function AboutPage() {
             worked at Ernst & Young from September 2016 to October 2017 as an assurance auditor for software, manufacturing,
             pharmaceutical, and biomedical clients throughout the Northeast. In October 2017, I moved to Minnesota and received my official
             CPA license in January 2018. I then began working at Regis Corporation as a Senior SEC Accountant from January 2018 to May 2019.
-            In May 2019, I began working at Target Corporation as an SEC Accountant and subsequently as a Senior Equity Accountant and 
+            In May 2019, I began working at Target Corporation as an SEC Accountant and subsequently as a Senior Equity Accountant and
             Senior Vendor Income Accountant. I am currently still working at Target Corporation as a Vendor Income Accounting Manager.
           </p>
           <p style={{ fontWeight: 'bold' }}>

@@ -1,13 +1,14 @@
-// Bringing in the required import from 'react-router-dom'
+// Bringing in the required import from 'react-router-dom' //
+// Update to NavLink to add the active functionality for active webpage //
 import { NavLink } from 'react-router-dom';
 import Navbar from './nav';
 
 export default function Nav() {
-  // The Navbar UI component will render each of the NavLink elements in the links prop
+  // The Navbar UI component will render each of the NavLink elements in the links prop //
   return (
     <Navbar
       links={[
-        <NavLink key={1} className="nav-link text-light" activeclassname="active" exact="true"  to="/">
+        <NavLink key={1} className="nav-link text-light" activeclassname="active" exact="true" to="/">
           Home
         </NavLink>,
         <NavLink key={2} className="nav-link text-light" activeclassname="active" to="/about">

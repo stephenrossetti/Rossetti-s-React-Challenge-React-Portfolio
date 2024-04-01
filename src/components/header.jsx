@@ -1,8 +1,9 @@
+// Import React as well as Nav component //
 import React from "react";
 import Nav from "../components/navbar";
 
+// Standard header with navbar //
 export default function Header() {
-
   return (
     <div>
       <section>

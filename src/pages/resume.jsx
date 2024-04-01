@@ -1,3 +1,4 @@
+// Import react, resume pdf and icons to show on the resume page //
 import React from "react";
 import resume from "../assets/images/Stephen.Rossetti.Resume.2024.pdf";
 import { BsCloudDownload } from "react-icons/bs";
@@ -5,6 +6,7 @@ import { FaComputer } from "react-icons/fa6";
 import { FaRegFileCode } from "react-icons/fa";
 import { GrDocumentPerformance } from "react-icons/gr";
 
+// Standard jsx html that includes a resume download and additional resources //
 export default function ResumePage() {
     return (
         <div>
