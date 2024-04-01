@@ -8,7 +8,7 @@ const projectsData =
       "content": "CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers posts as well.",
       "gitHubUrl": "https://github.com/stephenrossetti/Rossetti-s-Model-View-Controller-MVC-Tech-Blog",
       "liveUrl": "https://rossetti-mvc-tech-blog-5f23ac01a35f.herokuapp.com/",
-      "image": "./src/assets/images/p1TechBlog.jpg"
+      "image": "./assets/images/projects/p1TechBlog.jpg"
     },
     {
       "id": 2,
