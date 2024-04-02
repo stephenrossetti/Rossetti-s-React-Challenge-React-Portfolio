@@ -7,7 +7,7 @@
 <br />
 <div align="center">
 <a href="https://github.com/stephenrossetti/Rossetti-s-React-Challenge-React-Portfolio">
-<img src="./public/assets/images/AboutMe.png" alt="Homework Logo" width="100" height="100">
+<img src="./public/assets/images/README/AboutMe.png" alt="Homework Logo" width="100" height="100">
 </a>
 
 <h3 align="r">React Challenge: React Portfolio</h3>
@@ -151,11 +151,11 @@ OR
 
 ## Usage
 
-![React Portfolio](./public/assets/images/HomePage.png)
-![React Portfolio](./public/assets/images/AboutMe.png)
-![React Portfolio](./public/assets/images/ContactMe.png)
-![React Portfolio](./public/assets/images/Portfolio.png)
-![React Portfolio](./public/assets/images/Resume.png)
+![React Portfolio](./public/assets/images/README/HomePage.png)
+![React Portfolio](./public/assets/images/README/AboutMe.png)
+![React Portfolio](./public/assets/images/README/ContactMe.png)
+![React Portfolio](./public/assets/images/README/Portfolio.png)
+![React Portfolio](./public/assets/images/README/Resume.png)
 
 ## Links
 [The URL to Netlify](https://fastidious-vacherin-3fd62c.netlify.app/)
