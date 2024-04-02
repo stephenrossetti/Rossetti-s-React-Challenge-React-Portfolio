@@ -12,7 +12,7 @@ export default function Nav() {
           Home
         </NavLink>,
         <NavLink key={2} className="nav-link text-light" activeclassname="active" to="/about">
-          About Me
+          About
         </NavLink>,
         <NavLink key={3} className="nav-link text-light" activeclassname="active" to="/portfolio">
           Portfolio

@@ -408,29 +408,17 @@ label {
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 
 @media screen and (max-width: 980px) {
-  header {
-    padding-bottom: 0;
-    justify-content: center;
-  }
-
   header nav {
-    width: 100%;
+    display: block;
     text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    overflow-x: auto;
   }
 
-  header nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  header nav ul li {
+  header nav a {
     display: inline-block;
     margin: 0 10px;
-  }
-
-  header nav ul li a {
-    display: block;
     padding: 10px 15px;
     text-decoration: none;
     color: var(--white);
@@ -438,21 +426,8 @@ label {
     border-radius: 15px;
   }
 
-  header nav ul li a:hover {
+  header nav a:hover {
     background-color: var(--litemaroon);
-  }
-
-  header nav {
-    display: block;
-    position: relative;
-    z-index: 999;
-  }
-
-  footer h2,
-  footer div,
-  footer p {
-    text-align: center;
-    width: 100%;
   }
 
   .section-title {
